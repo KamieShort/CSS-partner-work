@@ -1,0 +1,58 @@
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+    grid-template-areas:
+        '. heading .'
+        'buy sell rent'
+    ;
+}
+
+.buy-home {
+    grid-area: buy;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.sell-home {
+    grid-area: sell;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(17, 61, 61);
+
+}
+
+.rent-home {
+    grid-area: rent;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(10, 12, 12);
+}
+
+.main-heading {
+    grid-area: heading;
+
+}
+
+.header-photo {
+    display: grid;
+    grid-template-areas:
+        ". greeting ."
+        ". input . "
+    ;
+}
+
+.greeting {
+    grid-area: greeting;
+    text-align: center;
+}
+
+#input {
+    grid-area: input;
+}
+
+.top-nav-bar{
+    justify-content: center;
+    align-items: center;
+}

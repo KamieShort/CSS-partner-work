@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="./styles/reset.css" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <link rel="stylesheet" href="./styles/home.css" />
-        <title>Zillow CSS</title>
-    </head>
 
-    <body>
-        <nav class=" top-nav-bar">
-            Nav Bar
-            <button id="rent">Buy</button>
-            <button id="rent">Rent</button>
-            <button id="rent">Sell</button>
-            <button id="rent">Home Loans</button>
-            <button id="rent">Agent Finder</button>
-            <a id="rent"><span>Zillow</span></a>
-            <button id="rent">Manage Rentals</button>
-            <button id="rent">Advertise</button>
-            <button id="rent">Help</button>
-            <button id="rent">Sign In</button>
-        </nav>
-        <header>
-            <div>
-                <p>Checkout Portland!</p>
-                <input type="text" id="input" placeholder="Address" />
-            </div>
-        </header>
-        <main>
-            <nav class="bottom-nav-bar">
-             Real Estate
-                <select name="rent" type="text"/>
-                    <option value ="Browse All Homes">Browse All Homes</option>
-                    <option value ="Give Us Your Money">Give Us Your Money</option>
-                    <option value ="Homes You Can't Afford">Homes You Can't Afford</option>
-                </select>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Zillow CSS</title>
+</head>
+
+<body>
+    <nav class=" top-nav-bar">
+        Nav Bar
+        <button id="rent">Buy</button>
+        <button id="rent">Rent</button>
+        <button id="rent">Sell</button>
+        <button id="rent">Home Loans</button>
+        <button id="rent">Agent Finder</button>
+        <a id="rent"><span>Zillow</span></a>
+        <button id="rent">Manage Rentals</button>
+        <button id="rent">Advertise</button>
+        <button id="rent">Help</button>
+        <button id="rent">Sign In</button>
+    </nav>
+    <header>
+        <div class="header-photo">
+            <p class="greeting">Checkout Portland!</p>
+            <input type="text" id="input" placeholder="Address" />
+        </div>
+    </header>
+    <main>
+        <section class="grid-section">
+            <h2 class="main-heading">Whether you are buying, selling, or renting, you wont be able to afford it.</h2>
+            <div class="buy-home"></div>
+            <div class="sell-home"></div>
+            <div class="rent-home"></div>
+        </section>
+        <nav class="bottom-nav-bar">
+            Real Estate
+            <select name="rent" type="text" />
+            <option value="Browse All Homes">Browse All Homes</option>
+            <option value="Give Us Your Money">Give Us Your Money</option>
+            <option value="Homes You Can't Afford">Homes You Can't Afford</option>
+            </select>
             Rentals
-                <select name="rent" type="text"/>
-                    <option value ="Browse All Homes">Browse All Homes</option>
-                    <option value ="Give Us Your Money">Give Us Your Money</option>
-                    <option value ="Homes You Can't Afford">Homes You Can't Afford</option>
-                </select>
+            <select name="rent" type="text" />
+            <option value="Browse All Homes">Browse All Homes</option>
+            <option value="Give Us Your Money">Give Us Your Money</option>
+            <option value="Homes You Can't Afford">Homes You Can't Afford</option>
+            </select>
             Mortgage Rates
-                <select name="rent" type="text"/>
-                    <option value ="Browse All Homes">Browse All Homes</option>
-                    <option value ="Give Us Your Money">Give Us Your Money</option>
-                    <option value ="Homes You Can't Afford">Homes You Can't Afford</option>
-                </select>
-            </nav>
-        </main>
-        <footer>
-            <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
-        </footer>
+            <select name="rent" type="text" />
+            <option value="Browse All Homes">Browse All Homes</option>
+            <option value="Give Us Your Money">Give Us Your Money</option>
+            <option value="Homes You Can't Afford">Homes You Can't Afford</option>
+            </select>
+        </nav>
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
+    </footer>
 
-        <script type="module" src="./app.js"></script>
-    </body>
+    <script type="module" src="./app.js"></script>
+</body>
+
 </html>
