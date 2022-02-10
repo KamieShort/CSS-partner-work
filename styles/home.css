@@ -2,7 +2,8 @@
     background: url(../assets/portland.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-attachment: fixed;
+    background-position-y: top;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
             '. buy sell rent .';
     }
 }
+
 .buy-home {
     grid-area: buy;
     height: 200px;
@@ -41,6 +43,7 @@ body {
     height: 200px;
     width: 200px;
     background-color: rgb(10, 12, 12);
+    color: white
 }
 
 .main-heading {
@@ -57,6 +60,7 @@ body {
             '. input .';
     }
 }
+
 .greeting {
     grid-area: greeting;
     text-align: center;
@@ -72,6 +76,7 @@ body {
 
     /* position: relative; */
 }
+
 .bottom-nav-bar {
     display: flex;
     justify-content: center;
@@ -83,8 +88,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 button {
     margin: 0.5em;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #777;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+button:hover {
+    color: blue;
 }
 
 select {
