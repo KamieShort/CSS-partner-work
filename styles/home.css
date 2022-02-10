@@ -54,6 +54,8 @@ body {
     .header-photo {
         display: grid;
         height: 500px;
+        border: black 2px solid;
+
         /* position: absolute; */
         grid-template-areas:
             '. greeting .'
